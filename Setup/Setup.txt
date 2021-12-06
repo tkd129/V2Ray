@@ -8,7 +8,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 
 systemctl status xray (Xray 1.4.5)
 
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/VH_x-ui/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/tkd129/V2Ray/main/install.sh)
 
 x-ui enable
 
