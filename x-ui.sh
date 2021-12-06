@@ -82,7 +82,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/VH_x-ui/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/tkd129/V2Ray/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -102,7 +102,7 @@ update() {
         fi
         return 0
     fi
-    bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/VH_x-ui/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/tkd129/V2Ray/main/install.sh)
     if [[ $? == 0 ]]; then
         echo -e " Cập nhật hoàn tất và bảng điều khiển đã được tự động khởi động lại${plain}"
         exit 0
